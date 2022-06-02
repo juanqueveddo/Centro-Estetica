@@ -1,0 +1,118 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;700&display=swap');
+
+/* ETIQUETAS */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(213, 253, 251) ;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: white
+}
+
+span:hover {
+    border-left: solid 10px rgb(65, 250, 210);
+    cursor: pointer;
+}
+
+a {
+    color: #000;
+    background-color: rgb(195, 255, 240) ;
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(3, 250, 217);
+    padding: 20px;
+}
+
+span {
+    color: #000;
+    background-color: rgb(195, 255, 240);
+    padding: 10px 130px 10px;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+footer {
+    background-color: rgb(19, 19, 19);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+}
+
+iframe {
+    padding: 20px 0px 0px 0px;
+}
+
+form {
+    padding: 0px 20px;
+    font-size: 20px
+}
+
+label {
+    color: #000;
+    font-weight: 700;
+}
+
+input {
+    color: #000;
+}
+
+textarea {
+    color: #000;
+}
+
+section {
+    margin: 0px 555px;
+}
+
+/* CLASES */
+
+.descuento {
+    background-color: rgb(190, 255, 237);
+    margin: 20px;   
+}
+
+.logo {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.tratamientos {
+    margin: 20px 0px 0px 0px;
+}
+
+.negrita {
+    font-weight: 700;
+}
+
+.precios {
+    font-size: 25px;
+}
+
+.relax {
+    padding: 50px;
+}
+
+.corporal {
+    margin: 0px 454px;
+}
+
+.menu-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+}
